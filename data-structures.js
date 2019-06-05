@@ -15,7 +15,9 @@ var length = string.length
 var string = string.replace('whatToReplace', 'newValue')
 
 // substring
-var subString = string.slice(fromIndex, toIndex);
+var subString = string.slice(fromIndex, toIndex); // included 'toIndex'
+var subString = string.substring(fromIndex, toIndex); // excluded 'toIndex'
+var subString = string.substr(fromIndex, numberOfCharToExtract);
 
 // char at specific position
 var char = string.charAt(3);
@@ -34,6 +36,9 @@ var number = string.search('value'); // -1 if not found
 
 // array of substrings
 var array = string.split('valueOfSeparator')
+
+// removes whitespace from both sides of a string
+var string = string.trim();
 
 //// ARRAY
 
