@@ -1,6 +1,7 @@
 // task 3
 // aabcccccaaa -> a5b1c6, 
 // count all chars in given string
+// inefficient way (no hashmap)
 
 function getFrequency(string) {
   var output = '';
