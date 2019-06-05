@@ -1,4 +1,4 @@
-//// STRING
+//// STRING ////
 // creat
 var string = '';
 
@@ -39,23 +39,3 @@ var array = string.split('valueOfSeparator')
 
 // removes whitespace from both sides of a string
 var string = string.trim();
-
-//// ARRAY
-
-//// HASH MAP
-// creat
-var hash = {};
-
-// add key-value
-hash[key] = value;
-
-// modify value
-hash[key] = [newValue];
-hash[key] += 1;
-
-// loop through
-for (var key in hash) {
-	console.log(hash[key]);
-}
-
-
